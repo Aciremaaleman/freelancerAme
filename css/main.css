@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0;  
 }
 
 footer {
@@ -112,13 +112,6 @@ header > p {
   margin: 0px 680px -50px 190px;
   padding: 0px 30px 0px 30px;
 
-}
-
-.secondparagraph {
-  display: inline-block;
-  font-size: 18px;
-  margin: 0px 200px 20px 740px;
-  padding: 0px 30px 0px 30px;
 }
 
 .boton > a {
