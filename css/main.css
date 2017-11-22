@@ -23,6 +23,9 @@ header > p { /*Se da el estilo del parrafo que esta dentro del header */
   font-size: 30px;
   margin: 50px 0px -100px 180px;
 }
+span {
+  color: #18bc9c;
+}
 #margin { /*id para dar margen izquierdo al primer div de imagenes de la segunda section*/
   margin-left: 265px;
 }
@@ -81,6 +84,7 @@ header > p { /*Se da el estilo del parrafo que esta dentro del header */
   margin: 20px 20px;
   width: 250px;
 }
+
 .line-two > hr { /*clase que toma un selector a hr para darle estilo a hr */
   display: inline-block;
   background-color: #000;
