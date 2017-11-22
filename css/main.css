@@ -1,14 +1,14 @@
-body {
+body {  /*Inicia el body*/
   margin: 0;
 }
-footer {
+footer { /* Se dan las caracteristicas generales del footer */
   background-color: #2c3e50;
   color: #fff;
   height: 200px;
   margin-bottom: -20px;
   width: 100%;
 }
-header {
+header { /* Se dan las caracteristicas generales del header */
   background-color: #2c3e50;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -18,90 +18,90 @@ header {
   width: 100%;
   z-index: 2;
 }
-header > p {
+header > p { /*Se da el estilo del parrafo que esta dentro del header */
   font-weight: bold;
   font-size: 30px;
   margin: 50px 0px -100px 180px;
 }
-#margin {
+#margin { /*id para dar margen izquierdo al primer div de imagenes de la segunda section*/
   margin-left: 265px;
 }
-#margintwo {
+#margintwo { /*id para dar margen izquierdo al segundo div de imagenes de la segunda section*/
   margin-left: 265px;
 }
-#margin_line {
+#margin_line { /*id para dar margen izquierdo al hr dentro del primer div de la segunda section*/
   margin-left: 550px;
 }
-#portfolio {
+#portfolio { /*id para dar margen izquierdo al primer vinculo del header*/
   margin-left: 850px;
 }
-#size {
+#size { /*id para dar tamaño a los input*/
   height: 23px;
 }
-.styleheader > a {
+.styleheader > a { /*clase para dar estilo a los vinculos del header */
   color: #fff;
   display: inline-block;
   margin: 66px 0px 0px 33px;
   text-decoration: none;
 }
-.firstpart {
+.firstpart { /*Inicia la primer seccion */
   color: #fff;
   background-color: #18bc9c;
 }
-.firstpart h1 {
+.firstpart > h1 { /*clase que toma un selector a h1 para darle estilo */
   font-family: 'Montserrat', sans-serif;
   font-size: 65px;
   margin: 15px 10px;
   text-align: center;
 }
-.firstpart > p {
+.firstpart > p { /*clase que toma un selector a p para darle estilo */
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 20px 0px 100px 0px;
 }
-.firstpart > img{
+.firstpart > img{ /*clase que toma un selector a img para darle estilo */
   margin-top: 250px;
   display: inline-block;
   margin-left: 550px;
 }
-.line-one > hr {
+.line-one > hr { /*clase que toma un selector a hr para darle estilo a hr */
   display: inline-block;
   background-color: #fff;
   height: 6px;
   width: 100px;
 }
-.secondpart h2 {
+.secondpart > h2 { /*Inicia segunda parte y se utiliza clase que toma un selector a h2 para darle estilo */
   font-size: 50px;
   margin: 80px 0px 20px 0px;
   text-align: center;
 }
-.secondpart img {
+.secondpart > img { /* clase que toma un selector a img para darle estilo a img */
   height: 200px;
   margin: 20px 20px;
   width: 250px;
 }
-.line-two > hr {
+.line-two > hr { /*clase que toma un selector a hr para darle estilo a hr */
   display: inline-block;
   background-color: #000;
   height: 6px;
   width: 100px;
 
 }
-.thirdpart {
+.thirdpart { /*Inicia tercer parte*/
   background-color: #18bc9c;
   color: #fff;
   height: 600px;
   font-family: 'Lato', sans-serif;
 }
-.thirdpart > h2 {
+.thirdpart > h2 { /* clase que toma un selector a h2 para darle estilo a h2 */
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   margin: 100px 0px 15px 0px;
   padding-top: 100px;
   text-align: center;
 }
-.firstparagraph {
+.firstparagraph { /* clase para dar estilo al primer parrafo */
   display: inline-block;
   font-size: 18px;
   height: 230px;
@@ -109,7 +109,7 @@ header > p {
   margin: 15px 50px 0px 265px;
   padding: 10px;
 }
-.secondparagraph {
+.secondparagraph { /* clase para dar estilo al primer parrafo */
   display: inline-block;
   font-size: 18px;
   height: 230px;
@@ -117,43 +117,41 @@ header > p {
   margin: 15px 0px 0px 0px;
   padding: 10px;
 }
-.botom {
+.botom { /* clase para dar estilo al boton que se encuentra en la tercer parte */
   border: 1px solid #fff;
   border-radius: 5px;
   display: inline-block;
   padding: 10px;
   margin: 0px 0px 8px 575px;
-
-
 }
-.stylebotom {
+.stylebotom {  /* clase para dar estilo al boton*/
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
-.fourthpart {
+.fourthpart { /*Inicia la cuarta parte */
   height: 650px;
 }
-.fourthpart > h2 {
+.fourthpart > h2 { /* clase que toma un selector a h2 para darle estilo a h2 */
   font-family: 'Montserrat', sans-serif;
   font-size: 45px;
   margin: 100px 0px 10px 0px;
   text-align: center;
 }
-.form {
+.form {  /* clase que da estilo general al nav que esta dentro de la cuarta section */
   color: #8a8a5c;
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin: 70px 0px 50px 400px;
 }
-input[type='text'] {
+input[type='text'] { /* da estilo a los input */
   border-top: none;
   border-left: none;
   border-right: none;
   width: 500px;
 }
-.botontwo > a {
+.botontwo > a { /* clase que toma un selector para a y darle estilo */
   background-color: #18bc9c;
   border-radius: 8px;
   color: #fff;
@@ -163,44 +161,44 @@ input[type='text'] {
   padding: 10px;
   text-decoration: none;
 }
-.adress {
+.adress { /*clase donde Inicia footer */
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   margin: 50px 20px 0px 70px;
 }
-.adress > h3 {
+.adress > h3 {/* clase que toma un selector a h3 para darle estilo a h3 dentro del footer */
   margin-left: 110px;
 }
-.adress > p {
+.adress > p { /* clase que toma un selector a p para darle estilo a p dentro del footer */
   margin: 10px 5px;
 }
-.socialnet {
+.socialnet { /* inicia el segundo div del footer */
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: center;
 }
-.socialnet > h3 {
+.socialnet > h3 { /* clase que toma un selector a h3 para darle estilo a h3 */
   margin-left: 150px;
 }
-.socialnet  .fa-facebook-square:before  {
+.socialnet  .fa-facebook-square:before  { /* clase que toma da margen izquierdo a los iconos */
   margin-left: 150px;
 }
-.info {
+.info { /* inicia el tercer div del footer */
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
-.info > h3 {
+.info > h3 { /* clase que toma un selector a h3 para darle estilo a h3 */
   margin-left: 250px;
   margin-bottom: 28px
 }
 .info > p {
-  font-size: 10px;
+  font-size: 10px; /* clase que toma un selector a p para darle estilo a p */
   margin-left: 90px;
 }
-.last {
+.last { /* inicia el ultimo div del footer*/
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   margin-top: 35px;
